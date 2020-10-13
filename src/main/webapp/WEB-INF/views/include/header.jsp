@@ -41,7 +41,7 @@ if('${msg}' != ""){
 				<ul class="util clear">
 				<c:choose>
 					<c:when test="${session_enabled eq 'true' }">
-						<li><span style="color:white">${session_username}님[${session_userid}] 환영합니다.!</span>
+						<li><span style="color:white">${session_username}님[${session_username}] 환영합니다.!</span>
 						</li>
 						<li><a href="/logout">로그아웃</a>
 						</li>
